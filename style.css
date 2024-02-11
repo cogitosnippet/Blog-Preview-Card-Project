@@ -1,0 +1,95 @@
+@font-face{
+  font-family: Figtree;
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+body{
+  margin: 0;
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+}
+
+.container{
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 475px;
+  width: 350px;
+  border: 2px solid black;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px black;
+  border-radius: 20px;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.up-img{
+  width: 90%;
+  border-radius: 20px;
+}
+
+.down-img{
+  height: 35px;
+}
+
+h2{
+  padding-left: 20px;
+  font-weight: bolder;
+  color: hsl(0, 0%, 7%);
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+p{
+  padding-left: 20px;
+  font-size: 13px;
+  color: hsl(0, 0%, 7%);
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.info{
+  padding-top: 15px;
+  font-size: 16px;
+  color: hsl(0, 0%, 50%);
+}
+
+button{
+  margin-top: 0px;
+  margin-left: 20px;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.user-info{
+  padding-left: 20px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  
+}
+
+.user-name{
+  margin: 0;
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 13px;
+  padding-top: 0px;
+  color: hsl(0, 0%, 7%);
+}
